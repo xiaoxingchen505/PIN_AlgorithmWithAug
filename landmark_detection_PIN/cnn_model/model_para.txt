@@ -1,0 +1,50 @@
+model 0:
+
+    eigvec_per = 0.995      # Percentage of eigenvectors to keep
+    sd = 3.0                # Standard deviation of shape parameters
+    landmark_count = 3    # Number of landmarks
+    landmark_unwant = []     # list of unwanted landmark indices
+    # Training parameters
+    resume = False          # Whether to train from scratch or resume previous training
+    box_size = 101          # patch size (odd number)
+    alpha = 0.5             # Weighting given to the loss (0<=alpha<=1). loss = alpha*loss_c + (1-alpha)*loss_r
+    learning_rate = 0.001
+    max_steps = 100000      # Number of steps to train
+    save_interval = 25000   # Number of steps in between saving each model
+    batch_size = 64       # Training batch size
+    dropout = 0.7
+
+with weight decay
+
+model 1:
+    eigvec_per = 0.995      # Percentage of eigenvectors to keep
+    sd = 3.0                # Standard deviation of shape parameters
+    landmark_count = 3    # Number of landmarks
+    landmark_unwant = []     # list of unwanted landmark indices
+    # Training parameters
+    resume = False          # Whether to train from scratch or resume previous training
+    box_size = 101          # patch size (odd number)
+    alpha = 0.5             # Weighting given to the loss (0<=alpha<=1). loss = alpha*loss_c + (1-alpha)*loss_r
+    learning_rate = 0.001
+    max_steps = 100000      # Number of steps to train
+    save_interval = 25000   # Number of steps in between saving each model
+    batch_size = 64       # Training batch size
+    dropout = 0.5
+no weight decay
+
+model2:
+    eigvec_per = 0.995      # Percentage of eigenvectors to keep
+    sd = 3.0                # Standard deviation of shape parameters
+    landmark_count = 3    # Number of landmarks
+    landmark_unwant = []     # list of unwanted landmark indices
+    # Training parameters
+    resume = False          # Whether to train from scratch or resume previous training
+    box_size = 121          # patch size (odd number)
+    alpha = 0.5             # Weighting given to the loss (0<=alpha<=1). loss = alpha*loss_c + (1-alpha)*loss_r
+    learning_rate = 0.001
+    max_steps = 100000      # Number of steps to train
+    save_interval = 25000   # Number of steps in between saving each model
+    batch_size = 64       # Training batch size
+    dropout = 0.8
+
+no weight decay
