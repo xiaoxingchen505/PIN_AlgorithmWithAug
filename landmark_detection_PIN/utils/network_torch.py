@@ -1,14 +1,14 @@
 # coding=UTF-8
 
 
-# Multiple landmark detection in 3D ultrasound images of fetal head
-# Network training
+# Multiple landmark detection in 2D medical cardiac images
+# Network 
 #
 # Reference
 # Fast Multiple Landmark Localisation Using a Patch-based Iterative Network
 # https://arxiv.org/abs/1806.06987
 #
-# Code EDITED BY: Xingchen Xiao
+# Code DEVELOPED BY: Xingchen Xiao
 # ==============================================================================
 
 

@@ -1,5 +1,4 @@
-# Multiple landmark detection in 3D ultrasound images of fetal head
-# Network training
+#  Multiple landmark detection in 2D medical cardiac images
 #
 # Reference
 # Fast Multiple Landmark Localisation Using a Patch-based Iterative Network

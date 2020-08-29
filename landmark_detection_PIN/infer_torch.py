@@ -5,6 +5,7 @@
 # Fast Multiple Landmark Localisation Using a Patch-based Iterative Network
 # https://arxiv.org/abs/1806.06987
 #
+# Code EDITED BY: Xingchen Xiao
 # ==============================================================================
 
 from __future__ import absolute_import
